@@ -1,5 +1,9 @@
 #import <Foundation/Foundation.h>
+#if SWIFT_PACKAGE
+@import opentracing;
+#else
 #import <opentracing/OTSpan.h>
+#endif
 NS_ASSUME_NONNULL_BEGIN
 
 @class LSSpanContext;

@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#if SWIFT_PACKAGE
+@import opentracing;
+#else
 #import <opentracing/OTSpanContext.h>
+#endif
 
 NS_ASSUME_NONNULL_BEGIN
 

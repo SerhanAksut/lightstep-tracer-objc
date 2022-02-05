@@ -1,7 +1,11 @@
 #import <Foundation/Foundation.h>
 
 #import "LSSpan.h"
+#if SWIFT_PACKAGE
+@import opentracing;
+#else
 #import <opentracing/OTTracer.h>
+#endif
 
 NS_ASSUME_NONNULL_BEGIN
 

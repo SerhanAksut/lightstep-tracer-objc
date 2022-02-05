@@ -4,7 +4,12 @@
 #else
     #import <Cocoa/Cocoa.h>
 #endif
+
+#if SWIFT_PACKAGE
+@import opentracing;
+#else
 #import <opentracing/OTReference.h>
+#endif
 
 #import "LSClockState.h"
 #import "LSSpan.h"

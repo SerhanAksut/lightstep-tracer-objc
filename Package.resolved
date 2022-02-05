@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "opentracing",
+        "repositoryURL": "https://github.com/SerhanAksut/opentracing-objc.git",
+        "state": {
+          "branch": "spm-support",
+          "revision": "9d877ce291c1cb3cd42a71298d2354b15acff7b4",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

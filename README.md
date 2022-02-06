@@ -25,6 +25,21 @@ Add following line to your `Cartfile`:
 github "lightstep/lightstep-tracer-objc" ~> 3.0
 ```
 
+## Installation (Swift Package Manager)
+
+ The [Swift Package Manager](https://www.swift.org/package-manager/) is a tool for managing the distribution of Swift code.
+
+ Add the following to your `Package.swift` file:
+ ```
+ dependencies: [
+     .package(url: "https://github.com/lightstep/lightstep-tracer-objc.git", .branch("master"))
+ ]
+ ```
+ And then build your project
+ ```
+ $ swift build
+ ```
+
 ## Getting started
 
 ```objectivec
